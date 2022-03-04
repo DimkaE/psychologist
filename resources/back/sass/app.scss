@@ -1,0 +1,11 @@
+@import 'bootstrap';
+
+a.desc:after{
+    content:"▲";
+}
+a.asc:after{
+    content:"▼";
+}
+a.asc, a.desc{
+    white-space:nowrap;
+}
